@@ -7,7 +7,7 @@ import { UnrealBloomPass} from 'three/examples/jsm/postprocessing/UnrealBloomPas
 
 
 const w = window.innerWidth;
-const h = window.innerWidth;
+const h = window.innerHeight;
 const scene = new THREE.Scene();
 scene.fog = new THREE.FogExp2(0x000000,0.3)
 const camera =  new THREE.PerspectiveCamera(75, w/h, 0.1, 1000);
